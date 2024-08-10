@@ -80,6 +80,11 @@ body {
   margin-top: 6px;
 }
 
+.task-item:hover {
+  cursor: pointer;
+  background-color: #f0f7f3;
+}
+
 .task-item i {
   background-color: #41b883;
   color: #fff;
@@ -95,4 +100,8 @@ body {
 
 .error::placeholder {
   color: red;
+}
+
+.completed {
+  text-decoration: line-through;
 }
