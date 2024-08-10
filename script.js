@@ -94,6 +94,8 @@ const refreshTasksUsingLocalStorage = () => {
 
   if (!tasksFromLocalStorage) return;
 
+  if (!tasksFromLocalStorage) return;
+
   for (const task of tasksFromLocalStorage) {
     const taskItemContainer = document.createElement("div");
     taskItemContainer.classList.add("task-item");
