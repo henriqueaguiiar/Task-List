@@ -15,6 +15,20 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-direction: column; /* Mantém o conteúdo centralizado */
+  position: relative;
+}
+
+.header-container {
+  color: #fff;
+  display: flex;
+  font-size: x-large;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  margin-top: 20px; /* Ajuste o valor conforme necessário */
 }
 
 .container {
@@ -22,6 +36,7 @@ body {
   padding: 30px 40px;
   width: 40%;
   min-width: 500px;
+  margin-bottom: 20px; /* Espaço abaixo do container */
 }
 
 .new-task-container {
